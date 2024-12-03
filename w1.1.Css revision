@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>week 1 L-1</title>
+    <style>
+      body {
+        font-family: sans-serif;
+      }
+      h1 {
+        display: block;
+        margin: 0 auto;
+        line-height: 48px;
+        text-align: center;
+        margin-top: 40px;
+        margin-bottom: 10px;
+        font-size: 34px;
+        font-weight: 900;
+      }
+      h2 {
+        margin-top: 5px;
+        text-align: center;
+        font-weight: bold;
+        color: #8064e9;
+        font-weight: 900;
+        line-height: 48px;
+        font-size: 34px;
+      }
+      p {
+        text-align: center;
+        margin-bottom: 5px;
+        font-size: 18px;
+        line-height: 28px;
+      }
+      button {
+        display: block;
+        margin: 0 auto;
+        color: #ffffff;
+        background-color: #8064e9;
+        padding: 15px 20px;
+        border-radius: 30px;
+        border: 1px solid #8064e9;
+        box-shadow: 7px 5px 12px rgba(0, 0, 0, 0.1);
+      }
+      button:hover {
+        background: #5e41a7;
+        cursor: pointer;
+      }
+      .number-of-spots {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      <img
+        src="https://th.bing.com/th?id=OIP.mE3CKdvAxILDbkPBgJKLSQAAAA&w=124&h=104&c=7&bgcl=22b236&r=0&o=6&dpr=1.5&pid=13.1"
+        alt="shecode"
+        width="50"
+        height="40"
+      />
+      SheCodes is a Coding Workshop for Women
+    </h1>
+    <h2>Access a new career in Technology</h2>
+    <p>Shecodes teaches coding, design and management skills to Women</p>
+    <p class="number-of-spots">Limited number of spots available!</p>
+    <button>Join now</button>
+  </body>
+</html>
