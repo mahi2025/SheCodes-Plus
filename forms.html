@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Html-forms</title>
+
+    <style>
+      form {
+        border: 1px solid grey;
+        padding: 20px;
+        border-radius: 4px;
+      }
+      label {
+        display: block;
+      }
+      .from-group {
+        margin: 20px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <h1>Welcome back</h1>
+      <div class="form-group">
+        <label for="email"> Enter your email address </label>
+        <input type="text" id="email" required autofocus />
+      </div>
+
+      <div class="form-group">
+        <label for="password">Enter your password </label>
+        <input type="password" id="password" required />
+      </div>
+
+      <div class="from-group">
+        <input type="submit" value="Login" />
+      </div>
+    </form>
+  </body>
+</html>
